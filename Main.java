@@ -1,6 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    int i = 10;
-    System.out.println("Liczba:"+ (i));
+    for(int i =0; i<100; i++){
+      if(i % 2 == 1){
+    System.out.println("Liczba:"+ i);
+      }
+    }
+      
   }
 }
